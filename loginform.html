@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RESTAURANT DATABASE</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	</head>
+    
+	<style>
+		body {
+background: url("Login.jpg") no-repeat;
+		background-size:cover;
+		font-family:"Permanent Marker";
+		text-color:white;
+    }
+	input[type="submit"]
+{
+	background-color:maroon;
+    color: white;
+    padding: 14px 18px;
+    margin: 6px 16px 16px 40px;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.7;
+    align-content: center;
+    font-family: "verdana";
+    font-weight: bold
+}
+input[type="reset"]{
+    background-color:maroon;
+    color: white;
+    padding: 14px 18px;
+    margin: 6px 16px 16px 40px;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.7;
+    align-content: center;
+    font-family: "verdana";
+    font-weight: bold
+}
+</style>
+    
+    
+	<body>
+        
+	<div id = "text">
+	<br><br><b><marquee direction="right" style="font-family:Helvetica; font-size:40pt ;color: #BFE63B" scrollamount="7"> RESTAURANT DATABASE MANAGEMENT! </marquee></b>
+	</div>
+        
+		<div id = "log">
+			<form  id = "logform" method="POST" action="main.html">
+                <br>
+<br>
+			<font style="font-family: Didot" font color=#74E8EF size="6">
+				USERNAME:  &nbsp;&nbsp;   <input type = "text" name="id" pattern="[A-Za-z0-9]{4,}" title="More than 4 characters and no special characters are allowed" placeholder="Username" required><br><br>
+                
+			PASSWORD:&nbsp;&nbsp; &nbsp;&nbsp;<input type="password" name="pass" placeholder="Password" required><br><br>
+                </font>
+				<input type="submit" value="Login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "reset" value = "Clear">
+                
+			</form>
+		</div>
+	</body>
+</html>
